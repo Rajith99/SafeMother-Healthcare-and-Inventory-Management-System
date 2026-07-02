@@ -1,4 +1,8 @@
 # 🩺 SafeMother Healthcare and Inventory Management System
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-Express-green?logo=node.js)
+![SQL Server](https://img.shields.io/badge/Database-Microsoft_SQL_Server-red?logo=microsoftsqlserver)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 
 A full-stack web application designed to streamline **maternal healthcare** and **medical inventory management** through a single integrated platform.
 
