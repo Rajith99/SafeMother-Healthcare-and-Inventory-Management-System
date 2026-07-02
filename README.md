@@ -1,5 +1,5 @@
 # 🩺 SafeMother Healthcare and Inventory Management System
-![SafeMother Banner](images/banner.png)
+![Banner](images/banner.png)
 ![React](https://img.shields.io/badge/React-19-blue?logo=react)
 ![Node.js](https://img.shields.io/badge/Node.js-Express-green?logo=node.js)
 ![SQL Server](https://img.shields.io/badge/Database-Microsoft_SQL_Server-red?logo=microsoftsqlserver)
