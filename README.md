@@ -1,108 +1,123 @@
-# SafeMother Healthcare & Inventory Management System
+# 🩺 SafeMother Healthcare and Inventory Management System
 
-SafeMother is a full-stack healthcare and inventory management platform designed for administrators, doctors, midwives, and mothers. It combines appointment management, secure messaging, pregnancy tracking, tip delivery, analytics, and inventory control into a single responsive application.
+A full-stack web application designed to streamline **maternal healthcare** and **medical inventory management** through a single integrated platform.
 
-## Features
+---
 
-- Multi-role authentication and authorization
-- Appointment booking and management
-- Real-time chat and messaging workflows
-- Pregnancy and patient tracking modules
-- Health tips and AI-powered recommendations
-- Inventory analytics and reorder support
-- SQL Server backend with structured data access
-- Modern React/Vite frontend interface
+## 📌 Overview
 
-## Technologies Used
+SafeMother helps healthcare professionals manage pregnancy records, appointments, patient communication, and medicine inventory efficiently.
 
-- React 19
+The system integrates healthcare services with intelligent inventory management to improve patient care and reduce medicine shortages.
+
+---
+
+## ✨ Features
+
+### 🏥 Healthcare Module
+
+- User Authentication & Role-Based Access
+- Pregnancy Record Management
+- Appointment Scheduling
+- Patient-Doctor-Midwife Messaging
+- Health Monitoring
+- User Management
+
+### 💊 Inventory Module
+
+- Medicine Categories
+- Medicine Management
+- Batch Management
+- Stock Monitoring
+- Expiry Tracking
+- Smart Reorder Forecasting
+- Inventory Dashboard
+
+---
+
+## 🛠 Technologies Used
+
+### Frontend
+
+- React.js
 - Vite
-- Tailwind CSS
-- Express.js
-- Node.js
-- MSSQL / Microsoft SQL Server
 - Axios
-- JSON Web Tokens (JWT)
-- Resend email integration
-- Gemini AI integration
-- ESLint
+- CSS
 
-## Installation
+### Backend
 
-1. Clone the repository:
+- Node.js
+- Express.js
 
-   ```bash
-   git clone <repository-url>
-   cd Healthcare-and-Inventary-Management-System--main
-   ```
+### Database
 
-2. Install server dependencies:
+- Microsoft SQL Server
 
-   ```bash
-   cd server
-   npm install
-   ```
+### Other Tools
 
-3. Install client dependencies:
+- Git & GitHub
+- Postman
 
-   ```bash
-   cd ../client
-   npm install
-   ```
+---
 
-4. Create environment configuration:
+## 📂 Project Structure
 
-   ```bash
-   cp .env.example .env
-   ```
-
-5. Update `.env` with your local database, API keys, and service endpoints.
-
-## Project Structure
-
-- `client/` - Frontend application built with React and Vite
-  - `src/` - React components, pages, routes, APIs, and styles
-  - `package.json` - Frontend dependencies and scripts
-- `server/` - Backend API built with Express and Node.js
-  - `src/` - Controllers, routes, services, middlewares, repositories, validators
-  - `config/` - Database and environment setup
-  - `scripts/`, `scratch/` - utility scripts and helpers
-  - `package.json` - Backend dependencies and scripts
-- `database_scripts/` - SQL schema and database setup scripts
-- `sample_users.md` - Example user data for demonstration
-
-## Run the Application
-
-### Start the server
-
-```bash
-cd server
-npm run dev
+```
+client/
+server/
+database_scripts/
+README.md
 ```
 
-### Start the client
+---
+
+## 🚀 Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/Rajith99/SafeMother-Healthcare-and-Inventory-Management-System.git
+```
+
+### Install Frontend
 
 ```bash
 cd client
+npm install
 npm run dev
 ```
 
-## Screenshots
+### Install Backend
 
-> Add screenshots after running the application and capturing the interface.
+```bash
+cd server
+npm install
+npm start
+```
 
-- `screenshots/login.png`
-- `screenshots/dashboard.png`
-- `screenshots/appointments.png`
+### Configure Database
 
-## Future Improvements
+- Install Microsoft SQL Server
+- Execute the SQL scripts in `database_scripts`
+- Update your `.env` file
 
-- Add automated tests for backend and frontend
-- Implement CI/CD for deployment and quality checks
-- Add internationalization support
-- Improve accessibility and mobile-first UX
-- Add a production-ready deployment guide
+---
 
-## Author
 
-SafeMother Team
+## 📈 Future Improvements
+
+- AI-based Demand Prediction
+- Email Notifications
+- Mobile Application
+- Barcode Scanner Integration
+- Analytics Dashboard
+
+---
+
+## 👨‍💻 Author
+
+Rajith D. Wickramasinghe
+
+Software Engineering Undergraduate
+
+Aspiring Software Quality Assurance Engineer
