@@ -1,0 +1,45 @@
+# Dependency directories
+node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Build and distribution
+dist/
+build/
+
+# Coverage reports
+coverage/
+
+# Logs
+*.log
+logs/
+
+# Editor metadata
+.vscode/
+.idea/
+
+# Temporary files
+temp/
+cache/
+.cache/
+
+# Uploads and generated files
+uploads/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Vite / front-end caches
+.vite/
+.parcel-cache/
+
+# Optional npm cache directory
+.npm/
+
+# Misc
+*.bak
+*~
